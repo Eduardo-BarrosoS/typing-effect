@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@400;800&family=Roboto:wght@400;700&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+}
+
+:root {
+    --bg: #130f0d;
+    --primary: #fd951f;
+    --primary-opaque: rgba(250, 152, 5, 0.139);
+
+    font-size: 62.5%;
+}
+body{
+    
+    font-family: 'Inter', sans-serif;
+    background: var(--bg);
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fd951f;
+    padding-block: 3rem;
+
+}
+
+.wrapper {
+    width: 60%;
+    height: 100%;
+    margin-inline: auto;
+    
+    color: #fd951f;
+    padding-block: 3rem;
+
+}
+
+.digitation {
+    
+    margin-inline: auto;
+
+    padding: 1rem;
+
+    border: 0.2rem solid var(--primary-opaque);
+    color: aliceblue;
+    font-size: 1.5rem;
+    flex: 1;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 5.12rem 0.25rem;
+}
+
+footer::after {
+    content: 'Feito por Eduardo Barroso';
+    opacity: 0.7;
+    font-size: 1.28rem;
+    color: white;
+}
